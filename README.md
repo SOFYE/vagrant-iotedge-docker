@@ -32,11 +32,11 @@ Start the IoT Edge runtime: :
 
 Install (or update) the AzureIotEdgeModule template in dotnet :
 
-  dotnet new -i Microsoft.Azure.IoT.Edge.Module
+    dotnet new -i Microsoft.Azure.IoT.Edge.Module
 
 Create a project for the new module :
 
-  dotnet new aziotedgemodule -n ModuleName
+    dotnet new aziotedgemodule -n ModuleName
 
 
 ## Usefull Links
