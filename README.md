@@ -1,4 +1,4 @@
-# Vagrant IoT Edge
+# Vagrant IoT Edge on Docker
 
 Easy Microsoft Azure IoT Edge development environment with Vagrant and Docker.
 
