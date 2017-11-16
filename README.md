@@ -28,6 +28,17 @@ Start the IoT Edge runtime: :
     sudo iotedgectl start
 
 
+## Develop a C# module
+
+Install (or update) the AzureIotEdgeModule template in dotnet :
+
+  dotnet new -i Microsoft.Azure.IoT.Edge.Module
+
+Create a project for the new module :
+
+  dotnet new aziotedgemodule -n ModuleName
+
+
 ## Usefull Links
 
 - [Microsoft IoT Edge Documentation](https://docs.microsoft.com/fr-ch/azure/iot-edge/)
